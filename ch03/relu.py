@@ -2,7 +2,9 @@
 import numpy as np
 import matplotlib.pylab as plt
 import matplotlib as mpl
+
 mpl.use('TkAgg')
+
 
 def relu(x):
     return np.maximum(0, x)
